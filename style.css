@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    padding: 0;
     font-family: "Inter", sans-serif;
 }
 
@@ -20,10 +21,17 @@ h1 {
     font-weight: 800;
 }
 
+.desc {
+    color: #484848;
+    line-height: 30px;
+    font-weight: 500;
+}
+
 h4 {
     color: #282828;
     font-weight: 800;
     font-size: 15px;
+    padding: 10px 0;
 }
 
 input {
@@ -51,8 +59,24 @@ button {
     padding: 10px 20px;
 }
 
-.desc {
-    color: #484848;
-    line-height: 30px;
-    font-weight: 500;
+footer {
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+    background-color: #282828;
+    padding: 30px 150px;
+    font-weight: 200;
+}
+
+ul {
+    padding-left: 0px;
+}
+
+li {
+    list-style: none;
+    padding: 3px;
+}
+
+.right-list {
+    text-align: right;
 }
